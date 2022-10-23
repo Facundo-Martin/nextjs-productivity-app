@@ -4,14 +4,15 @@
 
 @layer components {
   .header {
-    @apply max-w-screen-xl bg-pink-200 mx-auto py-6 px-4 sm:px-8 md:px-12 lg:px-16;
+    @apply max-w-screen-xl bg-pink-200 mx-auto py-6 px-4;
   }
   .section {
-    @apply mx-auto py-16 px-4 sm:px-8 md:px-12 lg:px-16;
+    @apply max-w-screen-xl mx-auto py-16 px-4;
   }
   .nav-item {
     @apply text-lg font-medium text-black hover:text-neutral-700;
   }
+  /* sm:px-8 md:px-12 lg:px-16 */
 }
 
 html,
