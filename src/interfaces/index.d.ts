@@ -1,4 +1,4 @@
 export type weeklyGoal = {
-  week: string;
+  week: number;
   goals: string[];
 };

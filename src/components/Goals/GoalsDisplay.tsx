@@ -5,8 +5,7 @@ import GoalsCard from "./GoalsCard";
 export default function GoalsDisplay() {
   return (
     <section className="section">
-      <h1>Goals Display</h1>
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 grid-flow-row-dense gap-4">
         {goals.map((goals) => (
           <GoalsCard goals={goals} />
         ))}
