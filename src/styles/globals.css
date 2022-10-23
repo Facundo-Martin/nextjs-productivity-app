@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .header {
+    @apply max-w-screen-xl bg-pink-200 mx-auto py-6 px-4 sm:px-8 md:px-12 lg:px-16;
+  }
+  .section {
+    @apply mx-auto py-16 px-4 sm:px-8 md:px-12 lg:px-16;
+  }
+  .nav-item {
+    @apply text-lg font-medium text-black hover:text-neutral-700;
+  }
+}
+
 html,
 body {
   padding: 0;
